@@ -11,7 +11,7 @@ public:
         int n = vs.size();
         if (pattern.size() != n) return false;
         for(int i=0; i<n; i++) {
-            if(s2c[vs[i]] == 0 && c2s[pattern[i]] == "") {
+            if(s2c[vs[i]] == 0 && c2s[pattern[i]] == "") { //operator[] performs an insertion if such key does not already exist. //at() throw an exception if key...
                 s2c[vs[i]] = pattern[i]; 
                 c2s[pattern[i]] = vs[i]; 
                 continue;
