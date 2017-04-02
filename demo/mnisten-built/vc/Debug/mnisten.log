@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\users\zeming\desktop\mnisten-master\include\cmdline.h(724): warning C4101: 'e': unreferenced local variable
+  c:\users\zeming\desktop\mnisten-master\include\cmdline.h(719): note: while compiling class template member function 'bool cmdline::parser::option_with_value<T>::set(const std::string &)'
+          with
+          [
+              T=int
+          ]
+  c:\users\zeming\desktop\mnisten-master\include\cmdline.h(365): note: see reference to class template instantiation 'cmdline::parser::option_with_value<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\zeming\desktop\mnisten-master\src\main.cpp(170): note: see reference to function template instantiation 'const T &cmdline::parser::get<int>(const std::string &) const' being compiled
+          with
+          [
+              T=int
+          ]
+  mnisten.vcxproj -> C:\Users\Zeming\Desktop\mnisten-master\vc\Debug\mnisten.exe
+  mnisten.vcxproj -> C:\Users\Zeming\Desktop\mnisten-master\vc\Debug\mnisten.pdb (Full PDB)
